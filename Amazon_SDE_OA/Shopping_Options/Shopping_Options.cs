@@ -6,6 +6,8 @@ namespace Amazon_SDE_OA.Shopping_Options
     internal class Shopping_Options : ISolution
     {
         public void Solution() {
+            Console.WriteLine("Find All Combination of Numbers Sum to Target / Shopping Options");
+            Console.WriteLine($"Input: 4");
             int Input = 4;
             List<ArrayList> result = print_all_sum(Input);
             print(result);
