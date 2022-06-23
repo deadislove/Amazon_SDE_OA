@@ -1,9 +1,4 @@
 ﻿using Amazon_SDE_OA.Interface;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Amazon_SDE_OA.Five_Star_Seller
 {
@@ -36,7 +31,7 @@ namespace Amazon_SDE_OA.Five_Star_Seller
             thershold = 4;
             Result = GetRequiredFiveStars(data, thershold);
 
-            Console.WriteLine($"Ans: {Result}");
+            Console.WriteLine($"Ans: {Result} (Doesn't correct!)");
         }
 
         private double GetRequiredFiveStars(int[][] classes, int extraStudents)
