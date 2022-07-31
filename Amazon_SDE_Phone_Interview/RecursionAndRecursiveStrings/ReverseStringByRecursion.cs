@@ -23,7 +23,7 @@ namespace Amazon_SDE_Phone_Interview.RecursionAndRecursiveStrings
             Console.WriteLine("Reverse string method 1");
             var tmp = Input.ToCharArray();
             RecursiveReverse1(tmp, 0);
-            Output = String.Join("", tmp);
+            Output = string.Join("", tmp);
             Console.WriteLine(Output);
             Console.WriteLine("Reverse string method 2");
             Output = RecursiveReverse2(Input);
@@ -89,7 +89,7 @@ namespace Amazon_SDE_Phone_Interview.RecursionAndRecursiveStrings
                 st.Pop();
             }
 
-            return String.Join("", str);
+            return string.Join("", str);
         }
 
         #region RecursiveReverseByIterative
@@ -136,7 +136,7 @@ namespace Amazon_SDE_Phone_Interview.RecursionAndRecursiveStrings
                 ch[j] = temp;
             }
 
-            return String.Join("", ch);
+            return string.Join("", ch);
         }
 
         /**
@@ -172,7 +172,7 @@ namespace Amazon_SDE_Phone_Interview.RecursionAndRecursiveStrings
                 temparray[left] = temparray[right];
                 temparray[right] = temp;
             }
-            return String.Join("", temparray);
+            return string.Join("", temparray);
         }
     }
 }
