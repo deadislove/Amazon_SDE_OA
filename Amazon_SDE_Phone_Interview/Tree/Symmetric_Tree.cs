@@ -3,6 +3,9 @@ using Amazon_SDE_Phone_Interview.Tree.Tree_Node;
 
 namespace Amazon_SDE_Phone_Interview.Tree
 {
+    /**
+     * Reference link: https://leetcode.com/problems/symmetric-tree/
+     */
     internal class Symmetric_Tree : ISolution
     {
         private bool disposedValue;

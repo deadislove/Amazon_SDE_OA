@@ -16,5 +16,7 @@ namespace Amazon_SDE_Phone_Interview.Tree.Tree_Node
             this.left = left;
             this.right = right;
         }
+
+        public TreeNode(int x) => val = x;
     }
 }
