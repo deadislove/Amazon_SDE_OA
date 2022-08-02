@@ -1,9 +1,12 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using Amazon_SDE_Phone_Interview.Binary;
 using Amazon_SDE_Phone_Interview.DataStructures;
+using Amazon_SDE_Phone_Interview.LRU_Cache.Geeksforgeeks;
+using Amazon_SDE_Phone_Interview.LRU_Cache.Leetcode;
 using Amazon_SDE_Phone_Interview.RecursionAndRecursiveStrings;
 using Amazon_SDE_Phone_Interview.SOLID;
 using Amazon_SDE_Phone_Interview.Tree;
+using Amazon_SDE_Phone_Interview.Word_Ladder.Leetcode;
 
 Console.WriteLine("Amazon SDE Interview problems.");
 Console.WriteLine("------------------------------");
@@ -60,3 +63,11 @@ new N_ary_Tree_Level_Order_Traversal().Solution();
 Console.WriteLine();
 new Count_Binary_Substrings().Solution();
 Console.WriteLine();
+
+
+//
+new LRU_Cache_Leetcode().Solution();
+Console.WriteLine();
+new LRU_Cache_Geeksforgeeks().Solution();
+Console.WriteLine();
+new Word_Ladder_Leetcode().Solution();
